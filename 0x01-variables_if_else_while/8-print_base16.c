@@ -1,21 +1,17 @@
 #include <stdio.h>
 /**
 *main - Entry point
-*Return: Always 0 (Success)
+*
+*Return: Always 0 (Success(
 */
 int main(void)
 {
-int num = 0;
-char hex = 'a';
-while (num <= 10)
-{putchar(num % 10 + '0');
-num++;
-}
-while (hex <= 'f')
-{putchar(hex);
-hex++;
-}
+char num;
+char hex;
+for (num = '0' ; num <= '9' ; num++)
+putchar(num);
+for (hex = 'a'; hex <= 'f'; hex++)
+putchar(hex);
 putchar('\n');
 return (0);
 }
-
