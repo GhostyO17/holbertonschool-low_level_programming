@@ -8,7 +8,7 @@ int main(void)
 int num = 0;
 char hex = 'a';
 while (num <= 10)
-{putchar(num + '0');
+{putchar(num % 10 + '0');
 num++;
 }
 while (hex <= 'f')
