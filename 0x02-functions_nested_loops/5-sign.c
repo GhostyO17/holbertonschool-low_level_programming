@@ -27,7 +27,7 @@ ret = 0;
 }
 if (num == 0)
 {
-_putchar(0);
+_putchar(0 + '0');
 ret = -1;
 }
 return (ret);
