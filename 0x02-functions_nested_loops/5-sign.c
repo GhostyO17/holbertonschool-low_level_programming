@@ -13,6 +13,7 @@ int print_sign(int n)
 int num, ret;
 
 ret = 0;
+num = n;
 
 if (num > 0)
 {
