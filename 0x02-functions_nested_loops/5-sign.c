@@ -1,34 +1,29 @@
 #include "main.h"
 
-/**
- * print_sign - print the sing of n
- * @n: character to read
- * Return: 1 if n is positive, 0 if it's 0 and -1 if it is negative
- */
 
+/**
+ *print_sign - prints sign of a number
+ *@n: number to define
+ *Return: always 0
+ */
 
 int print_sign(int n)
 {
-
-int num, ret;
-
-ret = 0;
-num = n;
-
-if (num > 0)
+int ret;
+if (n > 0)
 {
-_putchar('+');
 ret = 1;
+_putchar('+');
 }
-else if (num < 0)
+else if (n < 0)
 {
-_putchar('-');
-ret = 0;
-}
-if (num == 0)
-{
-_putchar(+'0');
 ret = -1;
+_putchar('-');
+}
+else
+{
+ret = 0;
+_putchar(+'0');
 }
 return (ret);
 }
