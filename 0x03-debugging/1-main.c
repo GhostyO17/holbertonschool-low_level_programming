@@ -13,10 +13,10 @@ int main(void)
 
         i = 0;
 
-        while (i < 10)
+        /*while (i < 10)
         {
-                putchar(i); /* the algoritm isn´t adding to i each time  it runs*/
-        }
+                putchar(i);
+        }*/
 
         printf("Infinite loop avoided! \\o/\n");
 
