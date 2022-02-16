@@ -22,13 +22,13 @@ ret = 1;
 }
 else if (num < 0)
 {
-  _putchar('-');
+_putchar('-');
 ret = 0;
 }
 if (num == 0)
 {
-_putchar('0');
+_putchar(0);
 ret = -1;
 }
-return(ret);
+return (ret);
 }
