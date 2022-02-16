@@ -12,7 +12,6 @@ int print_sign(int n)
 
 int num, ret;
 
-num = n;
 ret = 0;
 
 if (num > 0)
@@ -27,7 +26,7 @@ ret = 0;
 }
 if (num == 0)
 {
-_putchar(0 + '0');
+_putchar(+'0');
 ret = -1;
 }
 return (ret);
