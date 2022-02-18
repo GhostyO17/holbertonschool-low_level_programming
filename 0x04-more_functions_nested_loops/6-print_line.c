@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_line - prints a dash 
+ * print_line - prints a dash
  * @n: input
  * Return: Always 0.
  */
