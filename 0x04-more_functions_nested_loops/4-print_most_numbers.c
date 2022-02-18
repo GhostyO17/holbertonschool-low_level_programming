@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - entry point
+ * print_most_numbers - prints numbers ommiting 2 and 4.
  *
- * Return: Always 0 (Success)
- **/
+ * Return: Always 0.
+ */
+
 void print_most_numbers(void)
 {
 int rmnum;
