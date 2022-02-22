@@ -6,7 +6,7 @@
  * @s: string to reverse
  * Return: string backwards
  */
-void print_rev(char *s);
+void print_rev(char *s)
 {
 int x = 0;
 int z;
