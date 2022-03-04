@@ -8,17 +8,16 @@
  */
 int main(int argc, char *argv[])
 {
-  int t, a, mul;
-
+int m;
 if (argc == 3)
 {
-printf("error\n");
+m = atoi(argv[1]) * atoi(argv[2]);
+printf("%d\n", m);
+return (0);
+}
+else
+{
+printf("Error\n");
 return (1);
 }
-
-t = atoi(argv[1]);
-a = atoi(argv[2]);
-mul = t * a;
-printf("%d\n", mul);
-return (0);
 }
