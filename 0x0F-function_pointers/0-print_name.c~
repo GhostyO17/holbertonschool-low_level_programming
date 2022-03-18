@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include "function_pointers.h"
+
+/**
+*
+*
+*/
+
+void print_name(char *name, void (*f)(char *))
+{
+int i = 0;
+ while (name[i])
+   for (;name[i] = "/0"; i++)
+     {
+       _putchar(name);
+     }
+}
+
+
