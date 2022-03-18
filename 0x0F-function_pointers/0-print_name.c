@@ -1,10 +1,9 @@
-#include <stdio.h>
+#include"stdlib.h"
 #include "function_pointers.h"
-#include"stlib.h"
-
+#include <stdio.h>
 /**
  * print_name - prints a given name
- * @name: pointer to name
+ * @name: pointer to char
  * @f: pointer to function that returns nothing
  * Return: nothing
  **/
