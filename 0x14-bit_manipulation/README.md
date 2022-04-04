@@ -1,0 +1,1 @@
+A series of exercises manipulating bits in C
