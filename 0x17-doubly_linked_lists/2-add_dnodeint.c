@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * add_dnodeint - adds a new node a the head of the list 
+ * add_dnodeint - adds a new node a the head of the list
  * @head: head element
  * @n: int n
  * Return: address of the new element
