@@ -13,7 +13,7 @@ if (h == NULL)
 return (0);
 for (; h != NULL; i++)
 {
-printf("%d\n", i);
+printf("%d\n", h->n);
 h = h->next;
 }
 return (i);
