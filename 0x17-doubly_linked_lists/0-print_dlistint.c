@@ -1,21 +1,20 @@
 #include "lists.h"
 
 /**
- * print_dlistint - function that creates a file.
- * @
- * @
- * Return: 1 on success, -1 on failure
+ * print_dlistint - prints all the nodes of the list
+ * @h: elements that belong to dlistint
+ * Return: number of nodes
  */
 
 size_t print_dlistint(const dlistint_t *h)
 {
 int i = 0;
-    if (h == NULL)
-        return(0);
-for (;h != NULL; i++)
+if (h == NULL)
+return (0);
+for (; h != NULL; i++)
 {
 printf("%d\n", i);
 h = h->next;
 }
-return(i);
+return (i);
 }
